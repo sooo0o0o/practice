@@ -1,0 +1,418 @@
+2025-04-10T16:05:31.232+09:00  INFO 2184 --- [catskingdom] [restartedMain] k.co.catskingdom.CatskingdomApplication  : Starting CatskingdomApplication using Java 17.0.12 with PID 2184 (C:\Users\lotte6_SpringProject\Desktop\Workspace\catskingdom\catskingdom\build\classes\java\main started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\catskingdom\catskingdom)
+2025-04-10T16:05:31.235+09:00  INFO 2184 --- [catskingdom] [restartedMain] k.co.catskingdom.CatskingdomApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-04-10T16:05:31.275+09:00  INFO 2184 --- [catskingdom] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-10T16:05:31.275+09:00  INFO 2184 --- [catskingdom] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-10T16:05:31.804+09:00  INFO 2184 --- [catskingdom] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-10T16:05:31.824+09:00  INFO 2184 --- [catskingdom] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2025-04-10T16:05:32.217+09:00  INFO 2184 --- [catskingdom] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-10T16:05:32.228+09:00  INFO 2184 --- [catskingdom] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-10T16:05:32.228+09:00  INFO 2184 --- [catskingdom] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-10T16:05:32.265+09:00  INFO 2184 --- [catskingdom] [restartedMain] o.a.c.c.C.[.[localhost].[/catskingdom]   : Initializing Spring embedded WebApplicationContext
+2025-04-10T16:05:32.265+09:00  INFO 2184 --- [catskingdom] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 989 ms
+2025-04-10T16:05:32.369+09:00  INFO 2184 --- [catskingdom] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-10T16:05:32.604+09:00  INFO 2184 --- [catskingdom] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4c75ae25
+2025-04-10T16:05:32.606+09:00  INFO 2184 --- [catskingdom] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-10T16:05:32.655+09:00  INFO 2184 --- [catskingdom] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-10T16:05:32.702+09:00  INFO 2184 --- [catskingdom] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-10T16:05:32.734+09:00  INFO 2184 --- [catskingdom] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-10T16:05:33.021+09:00  INFO 2184 --- [catskingdom] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-10T16:05:33.119+09:00  INFO 2184 --- [catskingdom] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.4.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-10T16:05:33.396+09:00  INFO 2184 --- [catskingdom] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-10T16:05:33.401+09:00  INFO 2184 --- [catskingdom] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-10T16:05:33.436+09:00  WARN 2184 --- [catskingdom] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-10T16:05:33.458+09:00  INFO 2184 --- [catskingdom] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-04-10T16:05:33.750+09:00  INFO 2184 --- [catskingdom] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-10T16:05:33.779+09:00  INFO 2184 --- [catskingdom] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/catskingdom'
+2025-04-10T16:05:33.788+09:00  INFO 2184 --- [catskingdom] [restartedMain] k.co.catskingdom.CatskingdomApplication  : Started CatskingdomApplication in 2.996 seconds (process running for 3.537)
+2025-04-10T16:06:19.320+09:00  INFO 2184 --- [catskingdom] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-04-10T16:06:19.323+09:00  INFO 2184 --- [catskingdom] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-10T16:06:19.418+09:00  INFO 2184 --- [catskingdom] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-10T16:06:19.422+09:00  INFO 2184 --- [catskingdom] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-10T16:06:19.424+09:00  INFO 2184 --- [catskingdom] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-04-10T16:06:19.429+09:00  INFO 2184 --- [catskingdom] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-04-10T16:06:19.495+09:00  INFO 2184 --- [catskingdom] [restartedMain] k.co.catskingdom.CatskingdomApplication  : Starting CatskingdomApplication using Java 17.0.12 with PID 2184 (C:\Users\lotte6_SpringProject\Desktop\Workspace\catskingdom\catskingdom\build\classes\java\main started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\catskingdom\catskingdom)
+2025-04-10T16:06:19.495+09:00  INFO 2184 --- [catskingdom] [restartedMain] k.co.catskingdom.CatskingdomApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-04-10T16:06:19.663+09:00  INFO 2184 --- [catskingdom] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-10T16:06:19.665+09:00  INFO 2184 --- [catskingdom] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2025-04-10T16:06:19.731+09:00  INFO 2184 --- [catskingdom] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-10T16:06:19.732+09:00  INFO 2184 --- [catskingdom] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-10T16:06:19.732+09:00  INFO 2184 --- [catskingdom] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-10T16:06:19.751+09:00  INFO 2184 --- [catskingdom] [restartedMain] o.a.c.c.C.[.[localhost].[/catskingdom]   : Initializing Spring embedded WebApplicationContext
+2025-04-10T16:06:19.751+09:00  INFO 2184 --- [catskingdom] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 254 ms
+2025-04-10T16:06:19.779+09:00  INFO 2184 --- [catskingdom] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-04-10T16:06:19.792+09:00  INFO 2184 --- [catskingdom] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@178130ac
+2025-04-10T16:06:19.792+09:00  INFO 2184 --- [catskingdom] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-04-10T16:06:19.793+09:00  INFO 2184 --- [catskingdom] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-10T16:06:19.797+09:00  INFO 2184 --- [catskingdom] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-10T16:06:19.809+09:00  INFO 2184 --- [catskingdom] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-10T16:06:19.812+09:00  INFO 2184 --- [catskingdom] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.4.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-10T16:06:19.830+09:00  INFO 2184 --- [catskingdom] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-10T16:06:19.830+09:00  INFO 2184 --- [catskingdom] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-10T16:06:19.852+09:00  WARN 2184 --- [catskingdom] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-10T16:06:19.862+09:00  INFO 2184 --- [catskingdom] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-04-10T16:06:19.938+09:00  INFO 2184 --- [catskingdom] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-10T16:06:19.947+09:00  INFO 2184 --- [catskingdom] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/catskingdom'
+2025-04-10T16:06:19.951+09:00  INFO 2184 --- [catskingdom] [restartedMain] k.co.catskingdom.CatskingdomApplication  : Started CatskingdomApplication in 0.482 seconds (process running for 49.701)
+2025-04-10T16:06:19.953+09:00  INFO 2184 --- [catskingdom] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-04-10T16:06:57.929+09:00  INFO 2184 --- [catskingdom] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-04-10T16:06:57.930+09:00  INFO 2184 --- [catskingdom] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-10T16:06:58.031+09:00  INFO 2184 --- [catskingdom] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-10T16:06:58.033+09:00  INFO 2184 --- [catskingdom] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-10T16:06:58.033+09:00  INFO 2184 --- [catskingdom] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-04-10T16:06:58.036+09:00  INFO 2184 --- [catskingdom] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2025-04-10T16:06:58.103+09:00  INFO 2184 --- [catskingdom] [restartedMain] k.co.catskingdom.CatskingdomApplication  : Starting CatskingdomApplication using Java 17.0.12 with PID 2184 (C:\Users\lotte6_SpringProject\Desktop\Workspace\catskingdom\catskingdom\build\classes\java\main started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\catskingdom\catskingdom)
+2025-04-10T16:06:58.103+09:00  INFO 2184 --- [catskingdom] [restartedMain] k.co.catskingdom.CatskingdomApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-04-10T16:06:58.280+09:00  INFO 2184 --- [catskingdom] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-10T16:06:58.282+09:00  INFO 2184 --- [catskingdom] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2025-04-10T16:06:58.339+09:00  INFO 2184 --- [catskingdom] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-10T16:06:58.339+09:00  INFO 2184 --- [catskingdom] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-10T16:06:58.339+09:00  INFO 2184 --- [catskingdom] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-10T16:06:58.353+09:00  INFO 2184 --- [catskingdom] [restartedMain] o.a.c.c.C.[.[localhost].[/catskingdom]   : Initializing Spring embedded WebApplicationContext
+2025-04-10T16:06:58.353+09:00  INFO 2184 --- [catskingdom] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 248 ms
+2025-04-10T16:06:58.376+09:00  INFO 2184 --- [catskingdom] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2025-04-10T16:06:58.387+09:00  INFO 2184 --- [catskingdom] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1d1b597d
+2025-04-10T16:06:58.388+09:00  INFO 2184 --- [catskingdom] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2025-04-10T16:06:58.389+09:00  INFO 2184 --- [catskingdom] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-10T16:06:58.392+09:00  INFO 2184 --- [catskingdom] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-10T16:06:58.401+09:00  INFO 2184 --- [catskingdom] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-10T16:06:58.404+09:00  INFO 2184 --- [catskingdom] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 8.4.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-10T16:06:58.424+09:00  INFO 2184 --- [catskingdom] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-10T16:06:58.424+09:00  INFO 2184 --- [catskingdom] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-10T16:06:58.439+09:00  WARN 2184 --- [catskingdom] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-10T16:06:58.446+09:00  INFO 2184 --- [catskingdom] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-04-10T16:06:58.604+09:00  INFO 2184 --- [catskingdom] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-10T16:06:58.618+09:00  INFO 2184 --- [catskingdom] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/catskingdom'
+2025-04-10T16:06:58.624+09:00  INFO 2184 --- [catskingdom] [restartedMain] k.co.catskingdom.CatskingdomApplication  : Started CatskingdomApplication in 0.549 seconds (process running for 88.374)
+2025-04-10T16:06:58.627+09:00  INFO 2184 --- [catskingdom] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-04-10T16:07:00.027+09:00  INFO 2184 --- [catskingdom] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-04-10T16:07:00.028+09:00  INFO 2184 --- [catskingdom] [Thread-11] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-10T16:07:00.123+09:00  INFO 2184 --- [catskingdom] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-10T16:07:00.125+09:00  INFO 2184 --- [catskingdom] [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-10T16:07:00.125+09:00  INFO 2184 --- [catskingdom] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2025-04-10T16:07:00.128+09:00  INFO 2184 --- [catskingdom] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2025-04-10T16:07:00.187+09:00  INFO 2184 --- [catskingdom] [restartedMain] k.co.catskingdom.CatskingdomApplication  : Starting CatskingdomApplication using Java 17.0.12 with PID 2184 (C:\Users\lotte6_SpringProject\Desktop\Workspace\catskingdom\catskingdom\build\classes\java\main started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\catskingdom\catskingdom)
+2025-04-10T16:07:00.187+09:00  INFO 2184 --- [catskingdom] [restartedMain] k.co.catskingdom.CatskingdomApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-04-10T16:07:00.328+09:00  INFO 2184 --- [catskingdom] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-10T16:07:00.330+09:00  INFO 2184 --- [catskingdom] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2025-04-10T16:07:00.384+09:00  INFO 2184 --- [catskingdom] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-10T16:07:00.385+09:00  INFO 2184 --- [catskingdom] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-10T16:07:00.385+09:00  INFO 2184 --- [catskingdom] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-10T16:07:00.398+09:00  INFO 2184 --- [catskingdom] [restartedMain] o.a.c.c.C.[.[localhost].[/catskingdom]   : Initializing Spring embedded WebApplicationContext
+2025-04-10T16:07:00.398+09:00  INFO 2184 --- [catskingdom] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 209 ms
+2025-04-10T16:07:00.421+09:00  INFO 2184 --- [catskingdom] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2025-04-10T16:07:00.434+09:00  INFO 2184 --- [catskingdom] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@22907e18
+2025-04-10T16:07:00.434+09:00  INFO 2184 --- [catskingdom] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2025-04-10T16:07:00.436+09:00  INFO 2184 --- [catskingdom] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-10T16:07:00.441+09:00  INFO 2184 --- [catskingdom] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-10T16:07:00.451+09:00  INFO 2184 --- [catskingdom] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-10T16:07:00.455+09:00  INFO 2184 --- [catskingdom] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-4)']
+	Database driver: undefined/unknown
+	Database version: 8.4.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-10T16:07:00.477+09:00  INFO 2184 --- [catskingdom] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-10T16:07:00.477+09:00  INFO 2184 --- [catskingdom] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-10T16:07:00.493+09:00  WARN 2184 --- [catskingdom] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-10T16:07:00.499+09:00  INFO 2184 --- [catskingdom] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-04-10T16:07:00.579+09:00  INFO 2184 --- [catskingdom] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-10T16:07:00.589+09:00  INFO 2184 --- [catskingdom] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/catskingdom'
+2025-04-10T16:07:00.594+09:00  INFO 2184 --- [catskingdom] [restartedMain] k.co.catskingdom.CatskingdomApplication  : Started CatskingdomApplication in 0.429 seconds (process running for 90.343)
+2025-04-10T16:07:00.595+09:00  INFO 2184 --- [catskingdom] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-04-10T16:07:39.309+09:00  INFO 2184 --- [catskingdom] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-10T16:07:39.415+09:00  INFO 2184 --- [catskingdom] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-10T16:07:39.416+09:00  INFO 2184 --- [catskingdom] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-10T16:07:39.417+09:00  INFO 2184 --- [catskingdom] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2025-04-10T16:07:39.420+09:00  INFO 2184 --- [catskingdom] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2025-04-10T16:07:41.897+09:00  INFO 19572 --- [catskingdom] [restartedMain] k.co.catskingdom.CatskingdomApplication  : Starting CatskingdomApplication using Java 17.0.12 with PID 19572 (C:\Users\lotte6_SpringProject\Desktop\Workspace\catskingdom\catskingdom\build\classes\java\main started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\catskingdom\catskingdom)
+2025-04-10T16:07:41.899+09:00  INFO 19572 --- [catskingdom] [restartedMain] k.co.catskingdom.CatskingdomApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-04-10T16:07:41.939+09:00  INFO 19572 --- [catskingdom] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-10T16:07:41.939+09:00  INFO 19572 --- [catskingdom] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-10T16:07:42.465+09:00  INFO 19572 --- [catskingdom] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-10T16:07:42.486+09:00  INFO 19572 --- [catskingdom] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+2025-04-10T16:07:42.867+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-10T16:07:42.877+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-10T16:07:42.877+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-10T16:07:42.913+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.a.c.c.C.[.[localhost].[/catskingdom]   : Initializing Spring embedded WebApplicationContext
+2025-04-10T16:07:42.913+09:00  INFO 19572 --- [catskingdom] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 973 ms
+2025-04-10T16:07:43.010+09:00  INFO 19572 --- [catskingdom] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-10T16:07:43.254+09:00  INFO 19572 --- [catskingdom] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3edd22f1
+2025-04-10T16:07:43.255+09:00  INFO 19572 --- [catskingdom] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-10T16:07:43.302+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-10T16:07:43.349+09:00  INFO 19572 --- [catskingdom] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-10T16:07:43.385+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-10T16:07:43.673+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-10T16:07:43.767+09:00  INFO 19572 --- [catskingdom] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.4.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-10T16:07:44.035+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-10T16:07:44.039+09:00  INFO 19572 --- [catskingdom] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-10T16:07:44.074+09:00  WARN 19572 --- [catskingdom] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-10T16:07:44.095+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-04-10T16:07:44.479+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-10T16:07:44.521+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/catskingdom'
+2025-04-10T16:07:44.534+09:00  INFO 19572 --- [catskingdom] [restartedMain] k.co.catskingdom.CatskingdomApplication  : Started CatskingdomApplication in 3.068 seconds (process running for 3.6)
+2025-04-10T16:08:23.524+09:00  INFO 19572 --- [catskingdom] [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/catskingdom]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-10T16:08:23.525+09:00  INFO 19572 --- [catskingdom] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-10T16:08:23.526+09:00  INFO 19572 --- [catskingdom] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-04-10T16:08:33.731+09:00  INFO 19572 --- [catskingdom] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-04-10T16:08:33.733+09:00  INFO 19572 --- [catskingdom] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-10T16:08:33.834+09:00  INFO 19572 --- [catskingdom] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-10T16:08:33.838+09:00  INFO 19572 --- [catskingdom] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-10T16:08:33.840+09:00  INFO 19572 --- [catskingdom] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-04-10T16:08:33.845+09:00  INFO 19572 --- [catskingdom] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-04-10T16:08:33.908+09:00  INFO 19572 --- [catskingdom] [restartedMain] k.co.catskingdom.CatskingdomApplication  : Starting CatskingdomApplication using Java 17.0.12 with PID 19572 (C:\Users\lotte6_SpringProject\Desktop\Workspace\catskingdom\catskingdom\build\classes\java\main started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\catskingdom\catskingdom)
+2025-04-10T16:08:33.908+09:00  INFO 19572 --- [catskingdom] [restartedMain] k.co.catskingdom.CatskingdomApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-04-10T16:08:34.078+09:00  INFO 19572 --- [catskingdom] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-10T16:08:34.080+09:00  INFO 19572 --- [catskingdom] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2025-04-10T16:08:34.143+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-10T16:08:34.144+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-10T16:08:34.144+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-10T16:08:34.161+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.a.c.c.C.[.[localhost].[/catskingdom]   : Initializing Spring embedded WebApplicationContext
+2025-04-10T16:08:34.161+09:00  INFO 19572 --- [catskingdom] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 251 ms
+2025-04-10T16:08:34.184+09:00  INFO 19572 --- [catskingdom] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-04-10T16:08:34.197+09:00  INFO 19572 --- [catskingdom] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6d1e81df
+2025-04-10T16:08:34.197+09:00  INFO 19572 --- [catskingdom] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-04-10T16:08:34.198+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-10T16:08:34.202+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-10T16:08:34.214+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-10T16:08:34.217+09:00  INFO 19572 --- [catskingdom] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.4.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-10T16:08:34.234+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-10T16:08:34.234+09:00  INFO 19572 --- [catskingdom] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-10T16:08:34.250+09:00  WARN 19572 --- [catskingdom] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-10T16:08:34.257+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-04-10T16:08:34.370+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-10T16:08:34.380+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/catskingdom'
+2025-04-10T16:08:34.384+09:00  INFO 19572 --- [catskingdom] [restartedMain] k.co.catskingdom.CatskingdomApplication  : Started CatskingdomApplication in 0.501 seconds (process running for 53.449)
+2025-04-10T16:08:34.385+09:00  INFO 19572 --- [catskingdom] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-04-10T16:08:35.795+09:00  INFO 19572 --- [catskingdom] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-04-10T16:08:35.796+09:00  INFO 19572 --- [catskingdom] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-10T16:08:35.893+09:00  INFO 19572 --- [catskingdom] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-10T16:08:35.894+09:00  INFO 19572 --- [catskingdom] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-10T16:08:35.895+09:00  INFO 19572 --- [catskingdom] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-04-10T16:08:35.898+09:00  INFO 19572 --- [catskingdom] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2025-04-10T16:08:35.958+09:00  INFO 19572 --- [catskingdom] [restartedMain] k.co.catskingdom.CatskingdomApplication  : Starting CatskingdomApplication using Java 17.0.12 with PID 19572 (C:\Users\lotte6_SpringProject\Desktop\Workspace\catskingdom\catskingdom\build\classes\java\main started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\catskingdom\catskingdom)
+2025-04-10T16:08:35.958+09:00  INFO 19572 --- [catskingdom] [restartedMain] k.co.catskingdom.CatskingdomApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-04-10T16:08:36.147+09:00  INFO 19572 --- [catskingdom] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-10T16:08:36.149+09:00  INFO 19572 --- [catskingdom] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2025-04-10T16:08:36.245+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-10T16:08:36.246+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-10T16:08:36.246+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-10T16:08:36.264+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.a.c.c.C.[.[localhost].[/catskingdom]   : Initializing Spring embedded WebApplicationContext
+2025-04-10T16:08:36.264+09:00  INFO 19572 --- [catskingdom] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 304 ms
+2025-04-10T16:08:36.286+09:00  INFO 19572 --- [catskingdom] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2025-04-10T16:08:36.296+09:00  INFO 19572 --- [catskingdom] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5d91bc60
+2025-04-10T16:08:36.296+09:00  INFO 19572 --- [catskingdom] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2025-04-10T16:08:36.297+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-10T16:08:36.300+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-10T16:08:36.309+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-10T16:08:36.311+09:00  INFO 19572 --- [catskingdom] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 8.4.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-10T16:08:36.328+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-10T16:08:36.329+09:00  INFO 19572 --- [catskingdom] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-10T16:08:36.345+09:00  WARN 19572 --- [catskingdom] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-10T16:08:36.351+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-04-10T16:08:36.428+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-10T16:08:36.436+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/catskingdom'
+2025-04-10T16:08:36.440+09:00  INFO 19572 --- [catskingdom] [restartedMain] k.co.catskingdom.CatskingdomApplication  : Started CatskingdomApplication in 0.507 seconds (process running for 55.506)
+2025-04-10T16:08:36.441+09:00  INFO 19572 --- [catskingdom] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-04-10T16:08:59.190+09:00  INFO 19572 --- [catskingdom] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2025-04-10T16:08:59.191+09:00  INFO 19572 --- [catskingdom] [Thread-11] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-10T16:08:59.287+09:00  INFO 19572 --- [catskingdom] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-10T16:08:59.288+09:00  INFO 19572 --- [catskingdom] [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-10T16:08:59.289+09:00  INFO 19572 --- [catskingdom] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2025-04-10T16:08:59.291+09:00  INFO 19572 --- [catskingdom] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2025-04-10T16:08:59.342+09:00  INFO 19572 --- [catskingdom] [restartedMain] k.co.catskingdom.CatskingdomApplication  : Starting CatskingdomApplication using Java 17.0.12 with PID 19572 (C:\Users\lotte6_SpringProject\Desktop\Workspace\catskingdom\catskingdom\build\classes\java\main started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\catskingdom\catskingdom)
+2025-04-10T16:08:59.342+09:00  INFO 19572 --- [catskingdom] [restartedMain] k.co.catskingdom.CatskingdomApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-04-10T16:08:59.481+09:00  INFO 19572 --- [catskingdom] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-10T16:08:59.483+09:00  INFO 19572 --- [catskingdom] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2025-04-10T16:08:59.536+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-10T16:08:59.536+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-10T16:08:59.536+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-10T16:08:59.549+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.a.c.c.C.[.[localhost].[/catskingdom]   : Initializing Spring embedded WebApplicationContext
+2025-04-10T16:08:59.549+09:00  INFO 19572 --- [catskingdom] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 205 ms
+2025-04-10T16:08:59.571+09:00  INFO 19572 --- [catskingdom] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2025-04-10T16:08:59.580+09:00  INFO 19572 --- [catskingdom] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3c4d4b03
+2025-04-10T16:08:59.581+09:00  INFO 19572 --- [catskingdom] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2025-04-10T16:08:59.582+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-10T16:08:59.587+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-10T16:08:59.594+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-10T16:08:59.596+09:00  INFO 19572 --- [catskingdom] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-4)']
+	Database driver: undefined/unknown
+	Database version: 8.4.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-10T16:08:59.610+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-10T16:08:59.610+09:00  INFO 19572 --- [catskingdom] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-10T16:08:59.623+09:00  WARN 19572 --- [catskingdom] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-10T16:08:59.628+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-04-10T16:08:59.693+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-10T16:08:59.704+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/catskingdom'
+2025-04-10T16:08:59.708+09:00  INFO 19572 --- [catskingdom] [restartedMain] k.co.catskingdom.CatskingdomApplication  : Started CatskingdomApplication in 0.386 seconds (process running for 78.774)
+2025-04-10T16:08:59.709+09:00  INFO 19572 --- [catskingdom] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-04-10T16:10:25.992+09:00  INFO 19572 --- [catskingdom] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/catskingdom]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-10T16:10:25.992+09:00  INFO 19572 --- [catskingdom] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-10T16:10:25.993+09:00  INFO 19572 --- [catskingdom] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-04-10T16:10:27.733+09:00  INFO 19572 --- [catskingdom] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2025-04-10T16:10:27.734+09:00  INFO 19572 --- [catskingdom] [Thread-15] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-10T16:10:27.829+09:00  INFO 19572 --- [catskingdom] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-10T16:10:27.830+09:00  INFO 19572 --- [catskingdom] [Thread-15] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-10T16:10:27.831+09:00  INFO 19572 --- [catskingdom] [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2025-04-10T16:10:27.833+09:00  INFO 19572 --- [catskingdom] [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2025-04-10T16:10:27.889+09:00  INFO 19572 --- [catskingdom] [restartedMain] k.co.catskingdom.CatskingdomApplication  : Starting CatskingdomApplication using Java 17.0.12 with PID 19572 (C:\Users\lotte6_SpringProject\Desktop\Workspace\catskingdom\catskingdom\build\classes\java\main started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\catskingdom\catskingdom)
+2025-04-10T16:10:27.889+09:00  INFO 19572 --- [catskingdom] [restartedMain] k.co.catskingdom.CatskingdomApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-04-10T16:10:28.032+09:00  INFO 19572 --- [catskingdom] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-10T16:10:28.034+09:00  INFO 19572 --- [catskingdom] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2025-04-10T16:10:28.087+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-10T16:10:28.088+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-10T16:10:28.088+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-10T16:10:28.101+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.a.c.c.C.[.[localhost].[/catskingdom]   : Initializing Spring embedded WebApplicationContext
+2025-04-10T16:10:28.101+09:00  INFO 19572 --- [catskingdom] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 210 ms
+2025-04-10T16:10:28.120+09:00  INFO 19572 --- [catskingdom] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2025-04-10T16:10:28.130+09:00  INFO 19572 --- [catskingdom] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5a1aa3c9
+2025-04-10T16:10:28.130+09:00  INFO 19572 --- [catskingdom] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2025-04-10T16:10:28.131+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-10T16:10:28.136+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-10T16:10:28.144+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-10T16:10:28.146+09:00  INFO 19572 --- [catskingdom] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-5)']
+	Database driver: undefined/unknown
+	Database version: 8.4.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-10T16:10:28.160+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-10T16:10:28.160+09:00  INFO 19572 --- [catskingdom] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-10T16:10:28.172+09:00  WARN 19572 --- [catskingdom] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-10T16:10:28.177+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-04-10T16:10:28.239+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-10T16:10:28.247+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/catskingdom'
+2025-04-10T16:10:28.250+09:00  INFO 19572 --- [catskingdom] [restartedMain] k.co.catskingdom.CatskingdomApplication  : Started CatskingdomApplication in 0.382 seconds (process running for 167.316)
+2025-04-10T16:10:28.251+09:00  INFO 19572 --- [catskingdom] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-04-10T16:11:45.544+09:00  INFO 19572 --- [catskingdom] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/catskingdom]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-10T16:11:45.544+09:00  INFO 19572 --- [catskingdom] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-10T16:11:45.545+09:00  INFO 19572 --- [catskingdom] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-04-10T16:11:47.057+09:00  INFO 19572 --- [catskingdom] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2025-04-10T16:11:47.058+09:00  INFO 19572 --- [catskingdom] [Thread-19] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-10T16:11:47.153+09:00  INFO 19572 --- [catskingdom] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-10T16:11:47.155+09:00  INFO 19572 --- [catskingdom] [Thread-19] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-10T16:11:47.155+09:00  INFO 19572 --- [catskingdom] [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2025-04-10T16:11:47.158+09:00  INFO 19572 --- [catskingdom] [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2025-04-10T16:11:47.213+09:00  INFO 19572 --- [catskingdom] [restartedMain] k.co.catskingdom.CatskingdomApplication  : Starting CatskingdomApplication using Java 17.0.12 with PID 19572 (C:\Users\lotte6_SpringProject\Desktop\Workspace\catskingdom\catskingdom\build\classes\java\main started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\catskingdom\catskingdom)
+2025-04-10T16:11:47.213+09:00  INFO 19572 --- [catskingdom] [restartedMain] k.co.catskingdom.CatskingdomApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-04-10T16:11:47.354+09:00  INFO 19572 --- [catskingdom] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-10T16:11:47.356+09:00  INFO 19572 --- [catskingdom] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2025-04-10T16:11:47.408+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-10T16:11:47.409+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-10T16:11:47.409+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-10T16:11:47.422+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.a.c.c.C.[.[localhost].[/catskingdom]   : Initializing Spring embedded WebApplicationContext
+2025-04-10T16:11:47.422+09:00  INFO 19572 --- [catskingdom] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 208 ms
+2025-04-10T16:11:47.442+09:00  INFO 19572 --- [catskingdom] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2025-04-10T16:11:47.451+09:00  INFO 19572 --- [catskingdom] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5b32e5d1
+2025-04-10T16:11:47.451+09:00  INFO 19572 --- [catskingdom] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2025-04-10T16:11:47.452+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-10T16:11:47.455+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-10T16:11:47.462+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-10T16:11:47.464+09:00  INFO 19572 --- [catskingdom] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-6)']
+	Database driver: undefined/unknown
+	Database version: 8.4.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-10T16:11:47.477+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-10T16:11:47.477+09:00  INFO 19572 --- [catskingdom] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-10T16:11:47.490+09:00  WARN 19572 --- [catskingdom] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-10T16:11:47.495+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-04-10T16:11:47.554+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-10T16:11:47.563+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/catskingdom'
+2025-04-10T16:11:47.566+09:00  INFO 19572 --- [catskingdom] [restartedMain] k.co.catskingdom.CatskingdomApplication  : Started CatskingdomApplication in 0.372 seconds (process running for 246.633)
+2025-04-10T16:11:47.567+09:00  INFO 19572 --- [catskingdom] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-04-10T16:20:33.256+09:00  INFO 19572 --- [catskingdom] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2025-04-10T16:20:33.257+09:00  INFO 19572 --- [catskingdom] [Thread-23] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-10T16:20:33.355+09:00  INFO 19572 --- [catskingdom] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-10T16:20:33.357+09:00  INFO 19572 --- [catskingdom] [Thread-23] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-10T16:20:33.357+09:00  INFO 19572 --- [catskingdom] [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2025-04-10T16:20:33.360+09:00  INFO 19572 --- [catskingdom] [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2025-04-10T16:20:33.414+09:00  INFO 19572 --- [catskingdom] [restartedMain] k.co.catskingdom.CatskingdomApplication  : Starting CatskingdomApplication using Java 17.0.12 with PID 19572 (C:\Users\lotte6_SpringProject\Desktop\Workspace\catskingdom\catskingdom\build\classes\java\main started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\catskingdom\catskingdom)
+2025-04-10T16:20:33.414+09:00  INFO 19572 --- [catskingdom] [restartedMain] k.co.catskingdom.CatskingdomApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-04-10T16:20:33.571+09:00  INFO 19572 --- [catskingdom] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-10T16:20:33.572+09:00  INFO 19572 --- [catskingdom] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2025-04-10T16:20:33.635+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-10T16:20:33.636+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-10T16:20:33.636+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-10T16:20:33.650+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.a.c.c.C.[.[localhost].[/catskingdom]   : Initializing Spring embedded WebApplicationContext
+2025-04-10T16:20:33.650+09:00  INFO 19572 --- [catskingdom] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 233 ms
+2025-04-10T16:20:33.672+09:00  INFO 19572 --- [catskingdom] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2025-04-10T16:20:33.683+09:00  INFO 19572 --- [catskingdom] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Added connection com.mysql.cj.jdbc.ConnectionImpl@f685354
+2025-04-10T16:20:33.683+09:00  INFO 19572 --- [catskingdom] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2025-04-10T16:20:33.685+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-10T16:20:33.688+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-10T16:20:33.695+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-10T16:20:33.697+09:00  INFO 19572 --- [catskingdom] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-7)']
+	Database driver: undefined/unknown
+	Database version: 8.4.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-10T16:20:33.713+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-10T16:20:33.713+09:00  INFO 19572 --- [catskingdom] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-10T16:20:33.728+09:00  WARN 19572 --- [catskingdom] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-10T16:20:33.734+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-04-10T16:20:33.814+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-10T16:20:33.823+09:00  INFO 19572 --- [catskingdom] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/catskingdom'
+2025-04-10T16:20:33.827+09:00  INFO 19572 --- [catskingdom] [restartedMain] k.co.catskingdom.CatskingdomApplication  : Started CatskingdomApplication in 0.433 seconds (process running for 775.166)
+2025-04-10T16:20:33.828+09:00  INFO 19572 --- [catskingdom] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-04-10T16:25:20.745+09:00  INFO 19572 --- [catskingdom] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-10T16:25:20.844+09:00  INFO 19572 --- [catskingdom] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-10T16:25:20.846+09:00  INFO 19572 --- [catskingdom] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-10T16:25:20.846+09:00  INFO 19572 --- [catskingdom] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2025-04-10T16:25:20.849+09:00  INFO 19572 --- [catskingdom] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.

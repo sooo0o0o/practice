@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>고양이왕국</title>
+        <style>
+            * {
+                margin: 0 auto;
+            }
+            header {
+                width: auto;
+                height: auto;
+            }
+            .menu1 {
+                border-top: 1px solid #dedede;
+                width: auto;
+                height: 38px;
+            }
+            .search {
+                border-top: 1px solid #dedede;
+                border-bottom: 1px solid #dedede;
+                width: auto;
+                height: 121px;
+            }
+            .menu2 {
+                width: auto;
+                height: 59px;
+            }
+            main {
+                border: 1px solid blue;
+                width: auto;
+                height: auto;
+            }
+            main .a div {
+                display: inline-block;
+                border: 1px solid orange;
+                width: 1000px;
+                height: 560px;
+            }
+            main .a div:nth-child(1){}
+            main .a div:nth-child(2){}
+            main .a div:nth-child(3){}
+            main .b{
+                border: 1px solid pink;
+                width: 1100px;
+                height: 504px;
+            }
+            main .c{
+                border: 1px solid gray;
+                width: 1100px;
+                height: 480px;
+            }
+            main .d{
+                border: 1px solid red;
+                width: 1100px;
+                height: 510px;
+            }
+            main .e{
+                border: 1px solid yellow;
+                width: 7200px;
+                height: 220px;
+            }
+            main .f{
+                border: 1px solid brown;
+                width: 1100px;
+                height: 680px;
+            }
+            main .g{
+                border: 1px solid purple;
+                width: 1100px;
+                height: 510px;
+            }
+            main .h{
+                border: 1px solid navy;
+                width: 2700px;
+                height: 590px;
+            }
+
+            footer {
+                border: 1px solid green;
+                width: 2700px;
+                height: 540px;
+            }
+            .info {
+                text-align: center;
+            }
+            footer > div > div {
+                display: inline-block;
+                border: 1px solid pink;
+                width: 330px;
+                height: 240px;
+            }
+            footer > div:nth-child(2){
+                border: 1px solid red;
+                width: 2700px;
+                height: 60px;
+            }
+            footer > div:nth-child(3) > p{
+                border: 1px solid blue;
+                width: 1330px;
+                height: 150px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="menu1">menu1</div>
+            <div class="search">search</div>
+            <div class="menu2">menu2</div>
+        </header>
+        <main>
+            <section class="a">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+            </section>
+            <section class="b"></section>
+            <section class="c"></section>
+            <section class="d"></section>
+            <section class="e"></section>
+            <section class="f"></section>
+            <section class="g"></section>
+            <section class="h"></section>
+        </main>
+        <footer>
+            <div class="info">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+            </div>
+            <div></div>
+            <div><p>FOOTER</p></div>
+        </footer>
+    </body>
+</html>
